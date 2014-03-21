@@ -99,13 +99,23 @@ figcaption {
 
 
 footer {
+    float: center;
+    font-size: 20px; 
+    width: 100%;
     background-color: #5cb0ff;
     clear: both;
-    color: #ffffff;
+    color: #696969;
 }
 
 footer ul {
+    color: #eeeeee;
     list-style-type: none;
+}
+
+.social{
+    border-right: 800px;
+    color: #696969;
+    text-align: center;
 }
 
 .wrapper {
