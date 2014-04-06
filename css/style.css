@@ -18,6 +18,8 @@ h1 {
     line-height: 48px;
 }
 
+
+
 h2 {
     font-size: 24px;
     line-height: 32px;
@@ -28,6 +30,11 @@ h2 {
 p {
     margin-bottom: 24px;
 }
+
+h1 + nav {margin-top:25px;}
+
+p > span {border: 2px ;
+ background-color: #eeee21;}
 
 img {
     width: 100%;
@@ -112,11 +119,17 @@ footer ul {
     list-style-type: none;
 }
 
+
+
 .social{
     border-right: 800px;
     color: #696969;
     text-align: center;
 }
+
+div.wrapper {
+    color: #f60;
+    }
 
 .wrapper {
     margin: 0 auto;
@@ -220,3 +233,10 @@ footer ul {
     }
     
 }
+
+div.social {
+    color:#eeeeee;
+    border: 10px;}
+
+*[href] {color: #eef4ee;
+    }
